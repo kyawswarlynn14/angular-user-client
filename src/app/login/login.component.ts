@@ -35,7 +35,7 @@ export class LoginComponent {
         }
       },
       (error) => {
-        alert(error?.error?.error)
+        alert(error?.error?.message)
         console.error('Login error', error);
       }
     );
